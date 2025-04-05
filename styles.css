@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    height: 50px;
+    border: 1px solid black;
+    flex-basis: 6.25%;
+}
